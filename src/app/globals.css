@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    @apply h-full;
+  }
+  
+  #__next {
+    @apply h-full;
+  }
+}
+
+@layer components {
+  .code-editor {
+    @apply border border-gray-200 rounded-lg;
+  }
+  
+  .file-tree {
+    @apply bg-gray-50 border-r border-gray-200;
+  }
+  
+  .preview-panel {
+    @apply bg-white border border-gray-200 rounded-lg;
+  }
+}
